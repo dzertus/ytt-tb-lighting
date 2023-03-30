@@ -92,7 +92,7 @@ def main():
     :return:
     """
     if installed is True:
-        print('rocessing')
+        print('Processing')
     else:
         print('Shutting down..')
         sys.exit()
