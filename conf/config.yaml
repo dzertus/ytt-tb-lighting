@@ -31,8 +31,7 @@ logs:
       class: logging.FileHandler
       level: DEBUG
       formatter: default
-      filename:
-        - !TAG ${TBLIGHTING}/default.log
+      filename: !TAG ${TBLIGHTING}/default.log
   loggers:
     main:
       level: DEBUG

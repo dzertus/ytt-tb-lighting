@@ -5,9 +5,11 @@ import importlib
 import os
 import sys
 
-from data import path, env, config as uc
-from utils import logs as ul
-from utils import request as ur
+from data import env
+from ytt_py_utils.config.yaml import parser as uc
+
+from ytt_py_utils.log import logs as ul
+from ytt_py_utils.web import request as ur
 
 
 # Install Environment
@@ -35,8 +37,8 @@ if env.Env.PATH is not None:
 
 
     # Setup main config
-    app_config = config['app']
-    parser = path.PathParser()
+    # app_config = config['app']
+    # parser = path.PathParser()
 
     import pprint
     #pprint.pprint(config)
