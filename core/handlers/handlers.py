@@ -19,3 +19,4 @@ class DefaultHandler(ABC):
     """
     Class
     """
+    pass

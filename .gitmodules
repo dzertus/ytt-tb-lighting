@@ -1,3 +1,0 @@
-[submodule "ytt-utils"]
-	path = ytt-utils
-	url = https://github.com/dzertus/ytt-utils
